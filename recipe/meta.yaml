@@ -1,4 +1,4 @@
-{% set version = "1.33.1" %}
+{% set version = "1.35.0" %}
 
 package:
   name: dub
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/dlang/dub/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 60759c8f1d8cf81d5dfbffc7d76adc9855c5f2eeed1525a0fd523d0e79fcc88f
+  sha256: 7275cfbff1b8c8e2cb4a93ae98a8f4a6acdac88bbdc49e14aa66ea82a8539c94
 
 build:
   number: 0
